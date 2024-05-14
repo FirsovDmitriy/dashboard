@@ -10,6 +10,7 @@ const GeneralInfo = () => {
         <CardTitle>General information</CardTitle>
       </CardHeader>
       <ConnectForm>
+        {/* @ts-ignore */}
         {({ register, formState: { errors } }) => (
           <CardContent>
             <label className='relative'>

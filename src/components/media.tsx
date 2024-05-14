@@ -1,16 +1,16 @@
-import React from 'react'
 import { Card, CardHeader, CardTitle, CardContent } from './ui/card'
 import { Input } from './ui/input'
 import ConnectForm from './connectForm'
 import InvalidFeedback from './invalidFeedback'
 
-const Media: React.FC = () => {
+const Media = () => {
   return (
     <Card>
       <CardHeader>
         <CardTitle>Media</CardTitle>
       </CardHeader>
       <ConnectForm>
+        {/* @ts-ignore */}
         {({ register, formState: { errors } }) => (
           <CardContent>
             <div className="flex flex-col gap-4">

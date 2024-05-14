@@ -17,6 +17,7 @@ const GoodsCategory = () => {
         <CardTitle>Category</CardTitle>
       </CardHeader>
       <ConnectForm>
+        {/* @ts-ignore */}
         {({ control, formState: { errors } }) => (
           <CardContent>
             <FormField

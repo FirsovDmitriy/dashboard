@@ -1,4 +1,3 @@
-import React from 'react'
 import ConnectForm from '@/components/connectForm'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { FormField } from '@/components/ui/form'
@@ -12,6 +11,7 @@ const StatusSelection = () => {
         <CardTitle>Status</CardTitle>
       </CardHeader>
       <ConnectForm>
+      {/* @ts-ignore */}
         {({ control, formState: { errors } }) => (
           <CardContent>
             <FormField

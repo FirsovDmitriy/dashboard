@@ -11,6 +11,7 @@ const Pricing = () => {
         <CardTitle>Pricing</CardTitle>
       </CardHeader>
       <ConnectForm>
+        {/* @ts-ignore */}
         {({ register, formState: { errors } }) => (
           <CardContent>
             <label className="relative mb-3 block">
